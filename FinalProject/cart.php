@@ -91,13 +91,9 @@
 				<div class="col-2 menu">
 					<img src="uploads/alogo.png">
 				</div>
-				<div class="col-2">
 				
-				</div>
-
 				<div class="col-8 menu">
 				<div id="wrapper-product" >
-					
                     <ul>
                     <li></li>
                     <li></li>	
@@ -105,23 +101,21 @@
 					<li></li>
                     <li></li>	
                     <li></li>
-						<li><a href="trangchu1.php">Trang chủ</a></li>
-						
+					<li class="li" ><a style="text-indent: 50%;" href="trangchu1.php">Trang chủ</a></li>	
 					</ul>
 				</div>
 			</div>
 		</div>
 			</div>
 		</div>
-	</header>
-    
+	</header>    
         <div class="container">
             <?php if (!empty($error)) { ?> 
                 <div id="notify-msg">
                     <?= $error ?>. <a href="javascript:history.back()">Quay lại</a>
                 </div>
             <?php } elseif (!empty($success)) { ?>
-                <div id="notify-msg">
+                <div id="notify-msg" class="i">
                     <?= $success ?>. <a href="trangchu1.php">Tiếp tục mua hàng</a>
                 </div>
             <?php } else { ?>
@@ -151,7 +145,7 @@
                                     <td class="product-price"><?= number_format($row['price'], 0, ",", ".") ?></td>
                                     <td class="product-quantity"><input type="number" min="1" max="20" step="1" value="<?= $_SESSION["cart"][$row['id']] ?>" name="quantity[<?= $row['id'] ?>]" /></td>
                                     <td class="total-money"><?= number_format($row['price'] * $_SESSION["cart"][$row['id']], 0, ",", ".") ?></td>
-                                    <td class="product-delete"><a href="cart.php?action=delete&id=<?= $row['id'] ?>">Xóa</a></td>
+                                    <td class="product-delete i"><a href="cart.php?action=delete&id=<?= $row['id'] ?>"><h2>Xóa</h2></a></td>
                                 </tr>
                                 <?php
                                 $total += $row['price'] * $_SESSION["cart"][$row['id']];

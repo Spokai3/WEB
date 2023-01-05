@@ -10,7 +10,7 @@ and open the template in the editor.
 
 
 body{
-    font-family: arial;
+    font-family: 'Times New Roman';
 }
 *{
     box-sizing: border-box;
@@ -47,7 +47,8 @@ h1{
     overflow: hidden;
 }
 .product-price{
-    color: red;
+
+    color: #00aa2b;
     font-weight: bold;
 }
 .product-img{
@@ -120,10 +121,7 @@ a{
     border: 1px solid #000;
     background: #eee;
 }
-h1{
-    text-align: left;
-    margin-top: 0;
-}
+
 label.add-to-cart{
     background: #000;
     border: 1px solid #000;
@@ -205,6 +203,7 @@ table .total-money{
     width: 100px;
     text-align: center;
 }
+
 #cart-form label{
     width: 100px;
     display: inline-block;
@@ -266,13 +265,13 @@ header {
 	background-color: #ff0000;
 	padding: 10px 0 10px 0;
 }
-a:hover {
-	color: black;
-
+.li :hover {
+    color: black;
 }
+
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255 255 255);
     font-size: 20px;
 }
 p {
@@ -351,95 +350,27 @@ p {
 	top: 0;
 	z-index: 1;
 }
-body{
-	font-family: 'Times New Roman';
-}
-.container{
-	width: 1200px;
-	margin: 0 auto;
-}
 
-.product-items{
-	border: 1px solid #ccc;
-	padding: 30px;
-}
-.product-item{
-	float: left;
-	width: 23%;
-	margin: 1%;
-	padding: 10px;
-	box-sizing: border-box;
-	border: 1px solid #ccc;
-	line-height: 26px;
-}
-.product-item label{
-	font-weight: bold;
-}
-.product-item p{
-	margin: 0;
-	line-height: 26px;
-	max-height: 52px;
-	overflow: hidden;
-}
-.product-price{
-	color: #238e00;
-	font-weight: bold;
-}
+
+
 .product-img {
     padding: 5px;
     border: 1px solid #000;
     margin-bottom: 5px;
 }
-.product-item img{
-	max-width: 100%;
-}
-.product-item ul{
-	margin: 0;
-	padding: 0;
-	border-right: 1px solid #ccc;
-}
-.product-item ul li{
-	float: left;
-	width: 33.3333%;
-	list-style: none;
-	text-align: center;
-	border: 1px solid #ccc;
-	border-right: 0;
-	box-sizing: border-box;
-}
-.clear-both{
-	clear: both;
-}
+
 a{
 	text-decoration: none;
 }
-.buy-button{
-	text-align: right;
-	margin-top: 10px;
-}
-.buy-button a{
-	background: #000000;
-	padding: 5px;
-	color: white;
-}
+
 .buy-button a:hover {
 	color: black;
 }   
-#pagination{
-	text-align: right;
-	margin-top: 15px;
-}
-.page-item{
-	border: 1px solid #ccc;
-	padding: 5px 9px;
-	color: #000;
-}
-.current-page{
-	background: #000;
-	color: #FFF;
+
+.i a{
+    color:black;
 }
 
-red{
-	color: #ff0000;
-	font-size: 40px;
+.i a:hover{
+    color:rgb(255, 0, 0);
 }

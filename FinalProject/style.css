@@ -22,11 +22,6 @@
 
 }
 
-red{
-	color: #ff0000;
-	font-size: 40px;
-}
-
 header {
 	background-color: #ff0000;
 	padding: 10px 0 10px 0;
@@ -39,7 +34,6 @@ a {
 	text-decoration: none;
 	color: white;
 	font-size: 20px;
-
 }
 p {
 	margin: 10px 0 10px 0;
@@ -148,7 +142,7 @@ body{
 	overflow: hidden;
 }
 .product-price{
-	color: #238e00;
+	color: #00aa2b;
 	font-weight: bold;
 }
 .product-img{
@@ -184,12 +178,12 @@ a{
 	margin-top: 10px;
 }
 .buy-button a{
-	background: #000000;
+	background: #0084ff;
 	padding: 5px;
 	color: white;
 }
 .buy-button a:hover {
-	color: black;
+	color: rgb(0, 0, 0);
 }   
 #pagination{
 	text-align: right;
@@ -204,3 +198,6 @@ a{
 	background: #000;
 	color: #FFF;
 }
+
+**
+

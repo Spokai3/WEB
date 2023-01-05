@@ -22,16 +22,13 @@
 			<div class="row">
 				<div class="col-2 menu">
 					<img src="uploads/alogo.png">
-				</div>
-				<div class="col-2">
-				
-				</div>
-
+				</div>				
 				<div class="col-8 menu">
 				<div id="wrapper-product" >
 					<ul>
-						
-						<li><a href="trangchu1.php">Trang chủ</a></li>
+						<li> 
+                            <a href="trangchu1.php">Trang chủ</a> 
+                        </li>
 						<li>
 							<a href="cart.php"><i class="fas fa-cart-arrow-down"></i>Giỏ hàng</a>
 						</li>
